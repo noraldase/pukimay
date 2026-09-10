@@ -7,6 +7,7 @@ body{overflow-x:hidden;background:radial-gradient(circle at var(--cursor-x) var(
 @media(max-width:900px){.hero>*{min-width:0;max-width:100%}.hero-copy{width:100%;min-width:0}.hero-sub{max-width:100%}.hero-art-wrap{width:100%;max-width:100%;margin-right:0;transform:rotate(1deg)}.hero-art-wrap .hero-art{width:100%;max-width:100%;margin:auto}.wide-art{transform:none}.stats-visual{margin-inline:0}.rain-visual{padding:120px 22px 90px}}
 @media(max-width:550px){.hero-art-wrap{margin-top:10px}.rain-visual{padding:110px 22px 80px}.hero h1{font-size:58px}}
 @media(prefers-reduced-motion:reduce){body:before,.hero-art-wrap,.flow-line i,.rain-lines{animation:none!important}}
+.wallet-card b{display:block;margin-top:8px}.wallet-card span{display:block;margin-top:7px}
 .rain-canvas{position:fixed;inset:0;width:100vw;height:100vh;z-index:9;pointer-events:none;opacity:.75;mix-blend-mode:screen}.site>main,.site>footer{position:relative;z-index:10}.site>header{position:sticky;z-index:30}.hero,.rain-visual{isolation:isolate}.hero:after,.rain-visual:after{content:"";position:absolute;inset:auto 0 0;height:24%;pointer-events:none;background:linear-gradient(180deg,transparent,rgba(0,223,168,.08));mix-blend-mode:screen}.rain-visual:after{height:100%;inset:0;background:radial-gradient(circle at var(--cursor-x) 55%,rgba(184,255,50,.13),transparent 28rem)}
 /* navbar brand lock: prevent cinematic image rules from stretching the wordmark */
 header .logo{display:flex;flex:0 0 120px;width:120px;min-width:120px;max-width:120px;overflow:hidden}
